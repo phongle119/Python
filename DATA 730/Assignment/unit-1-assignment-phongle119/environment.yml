@@ -1,0 +1,22 @@
+name: data730
+channels:
+  - conda-forge
+  - chuckpr
+dependencies:
+  - python=3.9
+  - r-base
+  - r-irkernel
+  - r-tidymodels
+  - r-tidyverse
+  - r-vip
+  - r-ranger
+  - r-islr2
+  - r-moderndive
+  - r-palmerpenguins
+  - scikit-learn
+  - plotnine
+  - statsmodels
+  - altair
+  - ipykernel
+  - pip:
+      - palmerpenguins
